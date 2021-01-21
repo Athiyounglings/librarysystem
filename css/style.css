@@ -381,7 +381,7 @@ button:focus{
 }
 
 /*------------------------------------------------------------------
-    Menu
+    Books
 -------------------------------------------------------------------*/
 
 .menu-box{
@@ -403,7 +403,6 @@ button:focus{
 	margin: 0px;
 }
 
-.inner-menu-box{}
 .inner-menu-box .nav-pills .nav-link.active{
 	background: #d65106;
 }
@@ -573,7 +572,7 @@ button:focus{
 .contact-imfo-box{
 	background: #d65106;
 	padding: 30px 0;
-	border-radius: 100px;
+	border-radius: none;
 }
 
 .overflow-hidden {

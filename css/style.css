@@ -804,10 +804,13 @@ button:focus{
 }
 
 .inner-pt{
-	margin-top: 30px;
+    margin-top: 30px;
+
 }
 .inner-pt p{
-	font-size: 18px;
+    font-size: 18px;
+    font-size: 18px;
+    color: #222222;
 }
 
 .stuff-box{

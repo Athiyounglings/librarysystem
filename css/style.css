@@ -811,6 +811,13 @@ button:focus{
     font-size: 18px;
     color: #222222;
 }
+.mapouter {
+    position:absolute;
+    text-align:right;
+    height:305px;
+    width:100%;
+    margin-left: 600px;
+  }
 
 .stuff-box{
 	padding: 70px 0px;

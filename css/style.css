@@ -811,6 +811,20 @@ button:focus{
     font-size: 18px;
     color: #222222;
 }
+/* map section */
+.mapouter {
+    position:absolute;
+    text-align:right;
+    height:305px;width:100%;
+    margin-left: 600px;
+  }
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:305px;width:100%;
+    margin: 20px
+    }
+  /* end of map section */
 
 .stuff-box{
 	padding: 70px 0px;

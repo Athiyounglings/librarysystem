@@ -85,32 +85,54 @@
 	<!-- End All Pages -->
 	
 	<!-- Start Contact -->
-	<div class="map-full"></div>
-	<div class="contact-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Contact</h2>
-						<p></p>
+
+
+	<div class="row">
+		<div class="col-lg-12">
+			<form action="https://getform.io/f/fe40c07d-8e2b-4f71-ba08-8e011e7afe8b" method="POST">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+							<div class="help-block with-errors"></div>
+						</div>                                 
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-				</div>
-			</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+							<div class="help-block with-errors"></div>
+						</div> 
+					</div>
+					<div class="col-md-12">
+						<!-- <div class="form-group">
+							<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person">
+							  <option disabled selected>Please Select Person*</option>
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+							</select>
+							<div class="help-block with-errors"></div>
+						</div>  -->
+					</div>
+					<div class="col-md-12">
+						<div class="form-group"> 
+							<textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
+							<div class="help-block with-errors"></div>
+						</div>
+						<div class="submit-button text-center">
+							<button class="btn btn-common" id="submit" type="submit">Send Message</button>
+							<div id="msgSubmit" class="h3 text-center hidden"></div> 
+							<div class="clearfix"></div> 
+						</div>
+					</div>
+				</div>            
+			</form>
 		</div>
 	</div>
-
-	<form action="https://getform.io/f/fe40c07d-8e2b-4f71-ba08-8e011e7afe8b" method="POST">
-
-		<input type="text" name="name">
-		<input type="email" name="email">
-		<input type="text" name="message">
-		<button type="submit">Send</button>
-	  
-	</form>
+</div>
+</div>
 
 	<!-- End Contact -->
 
@@ -151,61 +173,64 @@
 		</div>
 	</div>
 	<!-- End Contact info -->
-		<!-- Start Footer -->
-		<footer class="footer-area bg-f">
+	
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>About Us</h3>
+					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Subscribe</h3>
+					<div class="subscribe_form">
+						<form class="subscribe_form">
+							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+							<button type="submit" class="submit"><a href="https://mail.google.com/mail/u/0/#inbox">SUBSCRIBE</a></button>
+							<a href=""></a>
+							<a href="https://mail.google.com/mail/u/0/#inbox" class="mail-button">Kontakt</a>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact information</h3>
+					<p class="lead">15 Street, Cape Town, 81000</p>
+					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
+					<p><a href="#"> info@admin.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Opening hours</h3>
+					<p><span class="text-color">Monday: </span>Closed</p>
+					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="copyright">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-md-6">
-						<h3>About Us</h3>
-						<p>.</p>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<h3>Subscribe</h3>
-						<div class="subscribe_form">
-							<form class="subscribe_form">
-								<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-								<button type="submit" class="submit">SUBSCRIBE</button>
-								<div class="clearfix"></div>
-							</form>
-						</div>
-						<ul class="list-inline f-social">
-							<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<h3>Contact information</h3>
-						<p class="lead">15 Street, Cape Town, 81000</p>
-						<p class="lead"><a href="#">+01 2000 800 9999</a></p>
-						<p><a href="#"> info@admin.com</a></p>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<h3>Opening hours</h3>
-						<p><span class="text-color">Monday: </span>9am</p>
-						<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-						<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-						<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+					<div class="col-lg-12">
+						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#"></a> Design By : 
+					<a href="https://html.design/">html design</a></p>
 					</div>
 				</div>
 			</div>
-			
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#"></a> Design By : 
-						<a href="https://html.design/">html/a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</footer>
-		<!-- End Footer -->	
+		</div>
 		
+	</footer>
+	<!-- End Footer -->
+	
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
 
 	<!-- ALL JS FILES -->

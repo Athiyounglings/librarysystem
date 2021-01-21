@@ -303,7 +303,8 @@ button:focus{
 }
 .cover-slides p{
 	font-size: 18px;
-	color: #fff;
+    color: #fff;
+    font-weight: bolder;
 }
 .slides-pagination a{
 	border: 2px solid #ffffff;

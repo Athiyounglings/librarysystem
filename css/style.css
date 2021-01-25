@@ -786,7 +786,7 @@ button:focus{
 .all-page-title::before{
 	background: #010101;
 	content: "";
-	height: 100%;
+	height: 80%;
 	left: 0;
 	position: absolute;
 	top: 0;

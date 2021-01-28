@@ -165,6 +165,7 @@ button:focus{
 	padding: 15px 0px;
 	position: fixed;
 	width: 100%;
+	border-radius: 0px 0px 100px 100px;
 	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
@@ -723,6 +724,7 @@ button:focus{
     line-height: 50px;
     display: inline-block;
     padding: 0 10px;
+    float: left;
     width: 100%;
 	border: none;
 	cursor: pointer;
@@ -785,7 +787,7 @@ button:focus{
 .all-page-title::before{
 	background: #010101;
 	content: "";
-	height: 80%;
+	height: 100%;
 	left: 0;
 	position: absolute;
 	top: 0;

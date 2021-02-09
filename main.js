@@ -5,7 +5,7 @@ var mainContainer = document.getElementById("main_container");
     var logtout =  function(){
         firebase.auth().signOut().then(function(){
             console.log('success');
-            window.location.replace("index.html");
+            window.location.replace("login.html");
         },function(){})
     }
 
@@ -17,7 +17,8 @@ var init = function(){
           mainContainer.style.display = "";
         } else {
           // No user is signed in.
-          mainContainer.style.display = "none";
+          // mainContainer.style.display = "none";
+          mainContainer.style.display = " ";
           console.log("redirect");
           window.location.replace("login.html");
         }

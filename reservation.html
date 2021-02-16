@@ -115,25 +115,26 @@
 									</div>
 									<div class="col-md-12">
 										<div class="form-group">
-											<input type="text" class="form-control" id="name" name="name" placeholder="Book Name" required data-error="Please enter the name of the book" >
+											<!-- <input type="text" class="form-control" id="name" name="name" placeholder="Book Category" required data-error="Please enter the name of the book" > -->
 											<div class="help-block with-errors"></div>
-										</div>                                 
+												<select class="custom-select d-block form-control" id="person" required data-error="Please select a Category" onChange="changecat(this.value);">
+												  <option disabled selected>Book Category</option>
+												  <option value="Action">Action</option>
+												  <option value="History">History</option>
+												  <option value="Science">Science</option>
+												  <div class="help-block with-errors"></div>
+												</select>
+										</div>
 									</div>
 									<div class="col-md-12">
 										<div class="form-group">
-											<select class="custom-select d-block form-control" id="person" required data-error="Please select Person">
-											  <option disabled selected>Book Category</option>
-											  <option value="1">Action</option>
-											  <option value="2">History</option>
-											  <option value="3">Science</option>
-											  <option value="4">Education</option>
-											  <option value="5">Documentary</option>
-											  <option value="6">Business</option>
-
-											
+											<!-- <input type="text" class="form-control" id="name" name="name" placeholder="Book Name" required data-error="Please enter the name of the book" > -->
 											<div class="help-block with-errors"></div>
-											<br>
-										</div> 
+												<select class="custom-select d-block form-control" id="bookName" required data-error="Please select a book">
+												  <option disabled selected>Book Name</option>
+												<div class="help-block with-errors"></div>
+												</select>
+										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -281,5 +282,6 @@
 	<script src="js/legacy.js"></script>
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
+	<script src="js/book.js"></script>
 </body>
 </html>
